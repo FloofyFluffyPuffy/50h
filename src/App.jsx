@@ -1,3 +1,4 @@
+import Counter from "../components/Counter"
 import Footer from "../components/Footer"
 import Greet from "../components/Greet"
 import Greeting from "../components/Greeting"
@@ -8,14 +9,20 @@ import Person from "../components/Person"
 import Product from "../components/Product"
 import ProductInfo from "../components/ProductInfo"
 import ProductList from "../components/ProductList"
+import Profile from "../components/Profile"
+import StyledCard from "../components/StyledCard"
+import TodoList from "../components/TodoList"
 import UserList from "../components/UserList"
 import WeclomeMessage from "../components/WeclomeMessage"
+import { CiShoppingCart } from "react-icons/ci";
+import ShoppingList from "../components/ShoppingList"
+import ShoppingListNew from "../components/ShoppingListNew"
 const App = () => {
   return (
     <div>
-      <Person name="A" age={23}/>
-      <Product name="B" price={7}/>
+      <ShoppingListNew/>
     </div>
+    
   )
 }
 
